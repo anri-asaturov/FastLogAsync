@@ -1,8 +1,6 @@
 FastLogAsync
 ============
-
 Fast, convinient and simple c# class for file/console logging in asynchronous way. 
-
 Grab single Log.cs and put it in your project or install a [package from NuGet].
 
 ` Install-Package FastLogAsync `
@@ -52,9 +50,10 @@ Log.Info("Hello, {0}", Log);
 Log.Error("Something strange happened.");
 Log.Error(exception);
 Log.Trace("Hello, Log"); // this will aslo append caller method name, assembly name and line numbler  
-
 ```
 
 Output
 ------
 Logger will create daily files in `yyMMdd.log` format.
+
+[package from NuGet]:https://www.nuget.org/packages/FastLogAsync/
