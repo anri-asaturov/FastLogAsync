@@ -13,7 +13,7 @@ Define `FAST_LOG` compilation symbol in progect properties to allow logging in a
 
 In addition, defne `FAST_TRACE` to also allow trace/debug logging.
 
-These symbols help you to control performance impact for a build. If you don't define `FAST_LOG` - compiler will sipmply remove all log calls from resulting binary. 
+These symbols help you to control performance impact for a build. If you don't define `FAST_LOG` - compiler will simply remove all log calls from resulting binary. 
 
 In general case you need to have FAST_LOG defined for all assemblies that use logging, and `FAST_TRACE` for debug configurations only.
 
