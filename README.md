@@ -9,7 +9,7 @@ Configuration
 -------------
 **Enable/disable logging at compile time**
 
-Define `FAST_LOG` compilation symbol in progect properties to allow logging in assembly you defined it in.
+Define `FAST_LOG` compilation symbol in project properties to allow logging in assembly you defined it in.
 
 In addition, defne `FAST_TRACE` to also allow trace/debug logging.
 
